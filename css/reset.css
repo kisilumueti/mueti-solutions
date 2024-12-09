@@ -1,0 +1,72 @@
+/* reset.css */
+
+/* Apply box-sizing border-box model for all elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margins and paddings */
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Remove default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default form element styles */
+input, select, textarea, button {
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Reset table styles */
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0;
+    text-align: left;
+}
+
+/* Remove default blockquote styles */
+blockquote {
+    quotes: none;
+}
+
+blockquote::before, blockquote::after {
+    content: "";
+    content: none;
+}
+
+/* Set default font */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Remove input and button focus outlines */
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+/* Prevent horizontal overflow */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}

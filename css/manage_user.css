@@ -1,0 +1,58 @@
+/* Custom styles for managing users */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Table styling */
+.table {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Card hover effect */
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+/* Buttons inside cards */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add user button */
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Modal styling */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+

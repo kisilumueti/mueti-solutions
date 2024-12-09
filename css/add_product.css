@@ -1,0 +1,40 @@
+/* Custom CSS for Add Product Page */
+.card {
+    border-radius: 10px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    font-size: 16px;
+    padding: 12px;
+}
+
+button[type="submit"]:hover {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}

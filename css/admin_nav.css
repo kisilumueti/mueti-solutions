@@ -1,0 +1,48 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+}
+
+/* Navbar links */
+.navbar-nav .nav-item .nav-link {
+    color: #f8f9fa !important; /* White text */
+    font-size: 16px;
+    padding: 12px 18px;
+}
+
+/* Change navbar link color on hover */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #00b5b8 !important; /* Light cyan color on hover */
+}
+
+/* Active link styling */
+.navbar-nav .nav-item .nav-link.active {
+    color: #ffcc00 !important; /* Yellow color for active link */
+}
+
+/* Navbar toggle button (hamburger) */
+.navbar-toggler {
+    border-color: #fff; /* White border for the hamburger button */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* White color for the hamburger icon */
+}
+
+/* Customize icons */
+.navbar-nav .nav-item i {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 18px;
+}
+
+/* Mobile-responsive styles */
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        padding: 10px 0;
+    }
+}
